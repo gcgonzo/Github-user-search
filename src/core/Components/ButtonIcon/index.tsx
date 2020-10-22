@@ -1,11 +1,16 @@
+import { type } from 'os';
 import React from 'react';
+import './styles.scss';
 
-
-const ButtonIcon = () => {
-    return(
-    <div></div>
-    );
-
+type Props = {
+    text:string;
 }
+
+const ButtonIcon = ({ text }: Props) => (
+   <button className="btn btn-primary btn-icon">
+       <h5>{text}</h5>
+   </button>
+
+);
 
 export default ButtonIcon;

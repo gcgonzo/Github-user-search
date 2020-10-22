@@ -1,10 +1,13 @@
 import React from 'react';
+import "./core/Assets/Styles/custom.scss";
 import './app.scss';
+//import './appletter.scss';
+import Routes from './Routes';
 
 
 const App = () => {
     return(
-        <h1> Hello App !</h1>
+        <Routes />
     );
 
 }

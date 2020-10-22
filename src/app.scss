@@ -1,5 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,700;1,400&family=Roboto&display=swap');
 
 *{
+    font-family: 'Red Hat Display', sans-serif;
     font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+a{
+    &:hover{
+        text-decoration: none;
+    }
 }
