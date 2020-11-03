@@ -1,4 +1,3 @@
-import { type } from 'os';
 import React from 'react';
 import './styles.scss';
 
@@ -7,8 +6,8 @@ type Props = {
 }
 
 const ButtonIcon = ({ text }: Props) => (
-   <button className="btn btn-primary btn-icon">
-       <h5>{text}</h5>
+   <button className="btn btn-primary btn">
+       <h2 className="btn-title">{text}</h2>
    </button>
 
 );

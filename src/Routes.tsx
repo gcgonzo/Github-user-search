@@ -4,6 +4,7 @@ import Navbar from './core/Components/Navbar';
 import Home from './page/Home';
 import Search from './page/Search';
 
+
 const Routes = () => (
     <BrowserRouter>
         <Navbar />
@@ -14,7 +15,7 @@ const Routes = () => (
             <Route path="/search">
                 <Search />
             </Route>
-
+           
         </Switch>
      
     </BrowserRouter>
